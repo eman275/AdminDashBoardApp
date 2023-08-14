@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+      "types": ["react", "react-dom", "react-router-dom" , "@mui/x-data-grid-pro"] 
+    }
+  }
+  
