@@ -2,6 +2,15 @@ import { DataGrid } from "@mui/x-data-grid";
 import styled from "styled-components";
 
 
+
+export const StyledContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+`;
+
 export const StyledDataGrid = styled(DataGrid)`
 & .MuiTablePagination-root {
   direction: rtl;
@@ -10,6 +19,10 @@ export const StyledDataGrid = styled(DataGrid)`
  display:flex ;   
  justify-content: flex-start;
  padding-inline-start: 40px;
+}
+.DataGrid-root {
+  width: 100%;
+  height: 400px;
 }
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 17px;

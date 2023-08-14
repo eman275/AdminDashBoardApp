@@ -8,12 +8,16 @@ import {
   SuspendedCell,
 } from "./styles";
 
+
+
+
 export const TableColumns = [
   {
     field: "ComplaintNumber",
     headerName: "رقم الشكوى",
      width: 180,
     filter: "agTextColumnFilter",
+    pinned: "right"
    
   },
   {
@@ -62,6 +66,7 @@ export const TableColumns = [
     field: "Details",
     headerName: "Details",
     width: 100,
+    pinned: "left",
     renderCell: (params: any) => (
       <BlueButton>
        كل التفاصيل 
@@ -83,6 +88,7 @@ export const dataGridProps = (data: ComplaintInterface[]) => {
         labelRowsPerPage: 'عدد الصفوف في كل صفحة:',
       },
     },
+
 
     // disableSelectionOnClick: true,
   };
