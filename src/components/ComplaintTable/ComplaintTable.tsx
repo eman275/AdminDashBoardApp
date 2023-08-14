@@ -19,7 +19,7 @@ const ComplaintTable: React.FC = () => {
     <>
       <GlobalFilter setSelectedFilter={setSelectedFilter} selectedFilter={selectedFilter} />
       <StyledDataGrid {...tableGridProps}
-       initialState={{ pinnedColumns: { left: ['Details'], right: ['ComplaintNumber'] } }}
+      //  initialState={{ pinnedColumns: { left: ['Details'], right: ['ComplaintNumber'] } }}
        />
     </>
   );
