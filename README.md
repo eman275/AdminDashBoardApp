@@ -10,7 +10,7 @@
 
 ## This is a   Simple Admin DashBoard using built using React.js with typeScript and styled using Material UI.
 
-It uses [TypeScript](https://www.typescriptlang.org/), [auth0](https://auth0.com) to manage state, [Material UI](https://material-ui.com/) for design .
+It uses [TypeScript](https://www.typescriptlang.org/), [auth0](https://auth0.com) to Config user log in, [Material UI](https://material-ui.com/) . and [Styled Component](https://styled-components.com/) for design .
 
 ### You can view it here: https://admin-dash-board-app.vercel.app/
 
