@@ -1,3 +1,4 @@
+import { GridColumnHeaderParams } from "@mui/x-data-grid";
 import { ComplaintInterface } from "../../@types";
 import {
   BlueButton,
@@ -17,8 +18,7 @@ export const TableColumns = [
     headerName: "رقم الشكوى",
      width: 180,
     filter: "agTextColumnFilter",
-    pinned: "right"
-   
+    pinned: "right",
   },
   {
     field: "ComplaintDepartment",
@@ -81,13 +81,15 @@ export const dataGridProps = (data: ComplaintInterface[]) => {
     columns: TableColumns,
      componentsProps: {
       pagination: {
-        page: 0, // Start from page 1
-        rowsPerPageOptions: [5, 10, 20],
+        page: 1, // Start from page 1
+        rowsPerPageOptions: [10, 20, 30],
         labelDisplayedRows: ({ from, to, count, page }: any) =>
           `صفحة ${page + 1} من ${Math.ceil(count / (to - from + 1))}`,
         labelRowsPerPage: 'عدد الصفوف في كل صفحة:',
       },
     },
+  
+
 
 
     // disableSelectionOnClick: true,
