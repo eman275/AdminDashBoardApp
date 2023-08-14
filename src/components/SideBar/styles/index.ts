@@ -14,6 +14,7 @@ export const StyledSideBarHeaderBox = styled(Box)`
   box-shadow: 0px 0px 6px #0000000d;
   border-radius: 17px;
   opacity: 1;
+  padding-inline-start: 20px;
 `;
 
 export const StyledLogoImg = styled.img`

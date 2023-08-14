@@ -1,1 +1,1 @@
-export const filtersData = ["الكل", "الإفتراضي", "الحصر", "المكافحة", ,];
+export const filtersData = ["الكل", "الإفتراضي", "الحصر", "المكافحة" ,];

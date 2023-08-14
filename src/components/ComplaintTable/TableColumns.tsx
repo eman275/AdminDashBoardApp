@@ -1,4 +1,3 @@
-import { GridColumnHeaderParams } from "@mui/x-data-grid";
 import { ComplaintInterface } from "../../@types";
 import {
   BlueButton,
@@ -8,9 +7,6 @@ import {
   RedTextCell,
   SuspendedCell,
 } from "./styles";
-
-
-
 
 export const TableColumns = [
   {
@@ -88,10 +84,5 @@ export const dataGridProps = (data: ComplaintInterface[]) => {
         labelRowsPerPage: 'عدد الصفوف في كل صفحة:',
       },
     },
-  
-
-
-
-    // disableSelectionOnClick: true,
-  };
+    };
 };
